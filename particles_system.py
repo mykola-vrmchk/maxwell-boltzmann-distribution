@@ -7,7 +7,7 @@ class ParticlesSystem:
     def __init__(self, radius: float, mass: float, volume: float, pressure: float, temperature: float,
                  init_type='norm'):
         """
-        System of particles which interacts like solid sphere
+        System of particles which interact like solid spheres
         :param radius: [m] radius of one particle
         :param mass: [kg] mass of one particle
         :param volume: [m^3] volume of system
